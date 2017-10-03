@@ -1,0 +1,6 @@
+home_index:
+    pattern:  /
+    controller: home:public:index
+home_test:
+    pattern:  /test
+    controller: home:public:test

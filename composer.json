@@ -1,0 +1,19 @@
+{
+    "name": "pierobay/kintoun-skeleton",
+    "description": "Kinto'Un PHP Framework Skeleton",
+    "keywords": ["framework", "kintoUn", "kinto-Un", "PHP"],
+    "type": "project",
+    "require": {
+        "php": ">=5.4",
+        "pierobay/kintoun": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Piero.Bay",
+            "email": "mail@pierobay.be"
+        }
+    ],
+    "config": {
+        "preferred-install": "dist"
+    }
+}
