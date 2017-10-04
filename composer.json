@@ -13,6 +13,11 @@
             "email": "mail@pierobay.be"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "KintoUnSkeleton\\": ""
+        }
+    },
     "config": {
         "preferred-install": "dist"
     }

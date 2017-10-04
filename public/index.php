@@ -1,8 +1,10 @@
 <?php
+
+namespace KintoUnSkeleton;
+
 chdir(dirname(__DIR__));
 session_start();
-$loader = require 'vendor/autoload.php';
-require 'vendor/pierobay/kintoun/app/Kintoun.php';
+require 'vendor/autoload.php';
 
 $app = new \KintoUn\App();
 $app->run();

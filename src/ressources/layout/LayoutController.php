@@ -1,6 +1,6 @@
 <?php
 
-namespace kintoUnRoot\layout;
+namespace kintoUnSkeleton\src\ressources\layout;
 
 use KintoUn\core\Controller;
 
