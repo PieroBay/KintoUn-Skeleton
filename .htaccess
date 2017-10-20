@@ -1,9 +1,7 @@
 RewriteEngine on
 #RewriteBase "/"
-RewriteCond %{REQUEST_URI} !(css|js|fonts|images|files|init|includes)
 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^.*\.(css|js|fonts|images|files|init|includes)$ [NC]
 
-RewriteCond %{REQUEST_FILENAME} -s [OR]
-RewriteCond %{REQUEST_FILENAME} -l 
-RewriteRule ^.*$ - [NC,L]
 RewriteRule ^(.*)$ index.php/$1 [NC,L]
