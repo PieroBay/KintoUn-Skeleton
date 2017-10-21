@@ -1,9 +1,9 @@
 configuration:
     database_host: localhost
     database_port: null
-    database_name: kintoun
+    database_name: p3
     database_user: root
-    database_password: 
+    database_password: root
     local: fr
     template: Twig
     development: true

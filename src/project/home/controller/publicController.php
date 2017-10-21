@@ -1,7 +1,6 @@
 <?php 
 	use KintoUn\core\Controller;
-	use KintoUn\libs;
-
+	
 	class publicController extends Controller{
 
 		protected $table = array("users");
