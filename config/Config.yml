@@ -19,3 +19,7 @@ login:
     activation: false
     remember: false
     session: id|name
+
+translate:
+    type: json
+    dbTable: 
